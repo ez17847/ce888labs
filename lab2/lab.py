@@ -62,16 +62,28 @@ if __name__ == "__main__":
 	print((("std: %f")%(np.std(data1))))
 	print((("MAD: %f")%(mad(data1))))
 	
+	# Create the histogram for the Current data
+	plt.clf()
+	sns_plot2 = sns.distplot(data0, bins=20, kde=False, rug=True).get_figure()
+
+	axes = plt.gca()
+	axes.set_xlabel('Amount of Cases')
+	axes.set_ylabel('Current Fleet')
+
+	sns_plot2.savefig("histogram_Current_fleet.png",bbox_inches='tight')
+	sns_plot2.savefig("histogram_Current_fleet.pdf",bbox_inches='tight')
+	
+	
 	# Create the histogram for the proposed data
 	plt.clf()
 	sns_plot2 = sns.distplot(data1, bins=20, kde=False, rug=True).get_figure()
 
 	axes = plt.gca()
-	axes.set_xlabel('Current Fleet') 
+	axes.set_xlabel('Amount of Cases')
 	axes.set_ylabel('Proposed Fleet')
 
-	sns_plot2.savefig("histogram_fleet.png",bbox_inches='tight')
-	sns_plot2.savefig("histogram_fleet.pdf",bbox_inches='tight')
+	sns_plot2.savefig("histogram_Proposed_fleet.png",bbox_inches='tight')
+	sns_plot2.savefig("histogram_Proposed_fleet.pdf",bbox_inches='tight')
 	
 	# Bootstrap for the "Current fleet column"
 	data = data0
@@ -110,4 +122,4 @@ if __name__ == "__main__":
 
 	sns_plot.savefig("bootstrap_confidence_Proposed.png",bbox_inches='tight')
 	sns_plot.savefig("bootstrap_confidence_Proposed.pdf",bbox_inches='tight')
-
+	
