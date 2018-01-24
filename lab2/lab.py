@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
 	sns_plot2.savefig("histogram_Proposed_fleet.png",bbox_inches='tight')
 	sns_plot2.savefig("histogram_Proposed_fleet.pdf",bbox_inches='tight')
-	"""
+	
 	# Bootstrap for the "Current fleet column"
 	data = data0
 	boots = []
@@ -122,4 +122,4 @@ if __name__ == "__main__":
 
 	sns_plot.savefig("bootstrap_confidence_Proposed.png",bbox_inches='tight')
 	sns_plot.savefig("bootstrap_confidence_Proposed.pdf",bbox_inches='tight')
-	"""
+	
