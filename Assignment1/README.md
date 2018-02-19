@@ -27,6 +27,7 @@ To do so, two .py files were modified.
 - [ ] common.py.
 It was modified bassically in its function of play_one_episode and play_n_episodes.
 play_n_episodes was modified to receive the name of the game, and to have a counter of the iterations that play_one_episode will use.
+	play_one_episode, in the other hand, was modified to save the frames previously mentioned into images, to an specific folder.
 ```
 def play_n_episodes(game, player, predfunc, nr, render=False):
     logger.info("Start Playing ... ")
@@ -36,7 +37,7 @@ def play_n_episodes(game, player, predfunc, nr, render=False):
         print("{}/{}, score={}".format(k, nr, score))
 ```
 
-	play_one_episode, in the other hand, was modified to save the frames previously mentioned into images, to an specific folder.
+
 
 ```
 def play_one_episode(k, im_t, game_name, env, func, render=False):

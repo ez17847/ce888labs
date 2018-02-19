@@ -35,7 +35,9 @@ def play_n_episodes(game, player, predfunc, nr, render=False):
         score = play_one_episode(k, im_t, game, player, predfunc, render=render)
         print("{}/{}, score={}".format(k, nr, score))
 ```
-	play_one_episode, in the other hand, was modified to save the frames previously mentioned 		into images, to an specific folder.
+
+	play_one_episode, in the other hand, was modified to save the frames previously mentioned into images, to an specific folder.
+
 ```
 def play_one_episode(k, im_t, game_name, env, func, render=False):
     def predict(s):
