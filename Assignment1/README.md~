@@ -115,4 +115,5 @@ def play_one_episode(k, im_t, game_name, env, func, render=False):
 	![Qbert](./Qbert-v0_instances/Qbert-v0-0-35.png?raw=true)
 	+ Seaquest-v0
 	![Seaquest](./Seaquest-v0_instances/Seaquest-v0-0-35.png?raw=true)
+	To see more examples, go to the designated directory of each game.
 
