@@ -102,8 +102,6 @@ def play_one_episode(k, im_t, game_name, env, func, render=False):
             play_n_episodes(game, get_player(train=False), pred, args.episode, render=True)
 ```
 
-
-
 ## Results
 
 	* The Zip created can be found in: https://drive.google.com/drive/folders/1-sTYxPe-EUABS27KFsi9FxKyQvqm75-n?usp=sharing
