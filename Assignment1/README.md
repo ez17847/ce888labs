@@ -11,7 +11,7 @@ In order to do so, it must be clarified that the section that this assignment wo
 ```
 Python3 train-atari.py --task play --env Breakout-v0 --load Breakout-v0.npz
 ```
-Were "Breakout-v0" is the name of the game, and "Breakout-v0.npz" is the name of the model.
+Where "Breakout-v0" is the name of the game, and "Breakout-v0.npz" is the name of the model.
 
 3. Different games where tested. The [models](http://models.tensorpack.com/OpenAIGym/) of them were downloaded from the same page as provided.
 The games tested were:
@@ -101,8 +101,6 @@ def play_one_episode(k, im_t, game_name, env, func, render=False):
             # Run the Game
             play_n_episodes(game, get_player(train=False), pred, args.episode, render=True)
 ```
-
-
 
 ## Results
 
