@@ -2,7 +2,7 @@
 
 For the first assignment, the files in the tensor pack library were used.
 
-These files can be found in https://github.com/ppwwyyxx/tensorpack.
+These [files](https://github.com/ppwwyyxx/tensorpack) can be found in https://github.com/ppwwyyxx/tensorpack.
 
 ## What was done?
 1. The first task was to be able to run the preloades examples provided.
@@ -13,7 +13,7 @@ Python3 train-atari.py --task play --env Breakout-v0 --load Breakout-v0.npz
 ```
 Were "Breakout-v0" is the name of the game, and "Breakout-v0.npz" is the name of the model.
 
-3. Different games where tested. The [models] (http://models.tensorpack.com/OpenAIGym/) of them were downloaded from the same page as provided.
+3. Different games where tested. The [models](http://models.tensorpack.com/OpenAIGym/) of them were downloaded from the same page as provided.
 The games tested were:
 	* Alien-v0
 	* Asteroids-v0
@@ -103,20 +103,23 @@ def play_one_episode(k, im_t, game_name, env, func, render=False):
 ```
 
 
+
 ## Results
-	Folders with at least 3000 imgaes of 4 frames were created in in the directory.
-	Some examples are:
+
+	* The Zip created can be found in: https://drive.google.com/drive/folders/1-sTYxPe-EUABS27KFsi9FxKyQvqm75-n?usp=sharing
+	* Folders with at least 3000 imgaes of 4 frames were created in in the directory.
+	* Some examples are:
 	+ Alien-v0
-	![Alien](./Alien-v0_instances/Alien-v0-7-92.png.png?raw=true)
+	![Alien](./Alien-v0-0-19.png.png?raw=true)
 	+ Asteroids-v0
-	![Ateroids](./Asteroids-v0_instances/Asteroids-v0-0-35.png?raw=true)
+	![Ateroids](./Asteroids-v0-0-10.png?raw=true)
 	+ Breakout-v0
-	![Breakout](./Breakout-v0_instances/Breakout-v0-0-35.png?raw=true)
+	![Breakout](./Breakout-v0-0-18.png?raw=true)
 	+ Pong-v0
-	![Pong](./Pong-v0_instances/Pong-v0-0-35.png?raw=true)
+	![Pong](./Pong-v0-0-16.png?raw=true)
 	+ Qbert-v0
-	![Qbert](./Qbert-v0_instances/Qbert-v0-0-35.png?raw=true)
+	![Qbert](./Qbert-v0-0-34.png?raw=true)
 	+ Seaquest-v0
-	![Seaquest](./Seaquest-v0_instances/Seaquest-v0-0-35.png?raw=true)
-	To see more examples, go to the designated directory of each game.
+	![Seaquest](./Seaquest-v0-0-26.png?raw=true)
+	* To see more examples, go to the designated directory of each game in the zip file.
 
