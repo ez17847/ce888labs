@@ -4,6 +4,26 @@ For the first assignment, the files in the tensor pack library were used.
 
 These [files](https://github.com/ppwwyyxx/tensorpack) can be found in https://github.com/ppwwyyxx/tensorpack.
 
+## Results
+* The Zip created can be found in: https://drive.google.com/drive/folders/1-sTYxPe-EUABS27KFsi9FxKyQvqm75-n?usp=sharing
+* Folders with at least 3000 imgaes of 4 frames were created in in the directory.
+* Some examples are:
++ Alien-v0
+	![Alien](./Alien-v0-0-19.png.png?raw=true)
++ Asteroids-v0
+	![Ateroids](./Asteroids-v0-0-10.png?raw=true)
++ Breakout-v0
+	![Breakout](./Breakout-v0-0-18.png?raw=true)
++ Pong-v0
+	![Pong](./Pong-v0-0-16.png?raw=true)
++ Qbert-v0
+	![Qbert](./Qbert-v0-0-34.png?raw=true)
++ Seaquest-v0
+	![Seaquest](./Seaquest-v0-0-26.png?raw=true)
+* To see more examples, go to the designated directory of each game in the zip file.
+
+
+
 ## What was done?
 1. The first task was to be able to run the preloades examples provided.
 In order to do so, it must be clarified that the section that this assignment work with was the A3C-Gym.
@@ -101,23 +121,3 @@ def play_one_episode(k, im_t, game_name, env, func, render=False):
             # Run the Game
             play_n_episodes(game, get_player(train=False), pred, args.episode, render=True)
 ```
-
-## Results
-
-	* The Zip created can be found in: https://drive.google.com/drive/folders/1-sTYxPe-EUABS27KFsi9FxKyQvqm75-n?usp=sharing
-	* Folders with at least 3000 imgaes of 4 frames were created in in the directory.
-	* Some examples are:
-	+ Alien-v0
-	![Alien](./Alien-v0-0-19.png.png?raw=true)
-	+ Asteroids-v0
-	![Ateroids](./Asteroids-v0-0-10.png?raw=true)
-	+ Breakout-v0
-	![Breakout](./Breakout-v0-0-18.png?raw=true)
-	+ Pong-v0
-	![Pong](./Pong-v0-0-16.png?raw=true)
-	+ Qbert-v0
-	![Qbert](./Qbert-v0-0-34.png?raw=true)
-	+ Seaquest-v0
-	![Seaquest](./Seaquest-v0-0-26.png?raw=true)
-	* To see more examples, go to the designated directory of each game in the zip file.
-

@@ -6,19 +6,20 @@ These [files](https://github.com/ppwwyyxx/tensorpack) can be found in https://gi
 
 ## Results
 * The Zip created can be found in: https://drive.google.com/drive/folders/1-sTYxPe-EUABS27KFsi9FxKyQvqm75-n?usp=sharing
+* The instances captured are in tensorpack/examples/A3C-Gym 
 * Folders with at least 3000 imgaes of 4 frames were created in in the directory.
 * Some examples are:
-+ Alien-v0
+- [ ] Alien-v0
 	![Alien](./Alien-v0-0-19.png.png?raw=true)
-+ Asteroids-v0
+- [ ] Asteroids-v0
 	![Ateroids](./Asteroids-v0-0-10.png?raw=true)
-+ Breakout-v0
+- [ ] Breakout-v0
 	![Breakout](./Breakout-v0-0-18.png?raw=true)
-+ Pong-v0
+- [ ] Pong-v0
 	![Pong](./Pong-v0-0-16.png?raw=true)
-+ Qbert-v0
+- [ ] Qbert-v0
 	![Qbert](./Qbert-v0-0-34.png?raw=true)
-+ Seaquest-v0
+- [ ] Seaquest-v0
 	![Seaquest](./Seaquest-v0-0-26.png?raw=true)
 * To see more examples, go to the designated directory of each game in the zip file.
 
