@@ -3,10 +3,19 @@
 ## Values obtained
 
 ### Original inputs
+
+* inputs = Input(shape=(maxlen,))
+* x = inputs
+* x = Embedding(max_features, 128, dropout=0.2)(x)
+* x = Flatten()(x)
+* x = Dense(1)(x)
+* predictions = Activation("sigmoid")(x)
+
 	* Test score: 0.6869393751072883
 	* Test accuracy: 0.8366
 
 ### First modification
+
 * inputs = Input(shape=(maxlen,))
 * x = inputs
 * x = Embedding(max_features, 128, dropout=0.2)(x)
@@ -20,6 +29,7 @@
 	* Test accuracy: 0.82184
 
 ### Second modification
+
 * inputs = Input(shape=(maxlen,))
 * x = inputs
 * x = Embedding(max_features, 128, dropout=0.2)(x)
@@ -35,6 +45,7 @@
 
 
 ### Third modification
+
 * inputs = Input(shape=(maxlen,))
 * x = inputs
 * x = Embedding(max_features, 128, dropout=0.2)(x)
@@ -47,6 +58,7 @@
 	* Test accuracy: 0.82696
 
 ### Fourth modification
+
 * inputs = Input(shape=(maxlen,))
 * x = inputs
 * x = Embedding(max_features, 128, dropout=0.2)(x)
