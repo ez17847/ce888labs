@@ -58,5 +58,3 @@ The code implemented using scikit-learn algorithms is called [Cluster_atari](htt
 ![Seaquest2](./Seaquest_cluster.png?raw=true)
 
 
-![Seaquest](./Seaquest_sharp2_Spectral clustering_ kmeans_13_Regions.png?raw=true)
-
