@@ -15,10 +15,10 @@ The different images, as well as the report can be found in this [drive link](ht
 
 
 ## LIME
-The code implemented using LIME is called [LIME_atari], where the images obtained are shown in [LIME_Images]
+The code implemented using LIME is called [LIME_atari](https://github.com/ez17847/ce888labs/blob/master/Assignment2/LIME/LIME_atari.ipynb), where the images obtained are shown in [LIME_Images](https://github.com/ez17847/ce888labs/blob/master/Assignment2/LIME/LIME_Images.docx)
 
 ## Optical Flow
-The code implemented using optical flow is called [OpticalFlow_atari], where the images obtained are shown in this [folder]
+The code implemented using optical flow is called [OpticalFlow_atari](https://github.com/ez17847/ce888labs/blob/master/Assignment2/Optical_Flow/OpticalFlow_atari.py), where the images obtained are shown in this [folder](https://github.com/ez17847/ce888labs/tree/master/Assignment2/Optical_Flow)
 
 ![Alien](./OF_Alien179.png?raw=true)
 
@@ -38,22 +38,24 @@ The code implemented using optical flow is called [OpticalFlow_atari], where the
 ![Seaquest](./OF_Seaquest215.png?raw=true)
 
 ## Clustering
-The code implemented using scikit-learn algorithms is called [Cluster_atari], where the images obtained are shown in this [folder]
+The code implemented using scikit-learn algorithms is called [Cluster_atari](https://github.com/ez17847/ce888labs/blob/master/Assignment2/Clusters/Cluster_atari.ipynb), where the images obtained are shown in this [folder](https://github.com/ez17847/ce888labs/tree/master/Assignment2/Clusters)
+
+![Alien2](./Alien_cluster.png?raw=true)
 
 
-![Alien](./Alien_sharp4_Spectral clustering_ kmeans_15_Regions.png?raw=true)
+![Ateroids2](./Asteroids_cluster.png?raw=true)
 
 
-![Ateroids](./Asteroids_sharp2_Spectral clustering_ kmeans_10_Regions.png?raw=true)
+![Breakout2](./Breakout_cluster.png?raw=true)
 
 
-![Breakout](./Breakout_sharp2_Spectral clustering_ kmeans_15_Regions.png?raw=true)
+![Pong2](./Pong_cluster.png?raw=true)
 
 
-![Pong](./Pong_sharp2_Spectral clustering_ kmeans_7_Regions.png?raw=true)
+![Qbert2](./Qbert_cluster.png?raw=true)
 
 
-![Qbert](./Qbert_sharp1_Spectral clustering_ kmeans_30_Regions.png?raw=true)
+![Seaquest2](./Seaquest_cluster.png?raw=true)
 
 
 ![Seaquest](./Seaquest_sharp2_Spectral clustering_ kmeans_13_Regions.png?raw=true)
