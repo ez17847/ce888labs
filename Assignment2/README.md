@@ -58,3 +58,7 @@ The code implemented using scikit-learn algorithms is called [Cluster_atari](htt
 ![Seaquest2](./Seaquest_cluster.png?raw=true)
 
 
+## Video
+
+The [video](https://youtu.be/nRMsMjATZGs) of the interpretations was uploaded to [Youtube](https://youtu.be/nRMsMjATZGs)
+
